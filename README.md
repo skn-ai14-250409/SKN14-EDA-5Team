@@ -69,7 +69,7 @@
 
 ### 1-2. 연령대별 평균 시청시간
 
-![image.png](images/image_1.png)
+![image](images/image%201.png)
 
 - 31~40세 그룹이 가장 높은 시청시간
 - 60대 이상에서도 다시 상승 추세
@@ -79,7 +79,7 @@
 
 ### 1-3. 장르별 시청시간 이상치 분포
 
-![image.png](images/image_2.png)
+![image.png](images/image%202.png)
 
 - 장르별 시청시간 분포에 이상치 거의 없고 안정적
     
@@ -97,7 +97,7 @@
 
 ### 2-1. 국가별 평균 시청시간
 
-![image.png](images/image_3.png)
+![image.png](images/image%203.png)
 
 - 캐나다, 호주, 프랑스 > 인도, 일본
     
@@ -106,7 +106,7 @@
 
 ### 2-2. 국가별 선호 장르
 
-![image.png](images/image_4.png)
+![image.png](images/image%204.png)
 
 - 인도: 로맨스 / 미국: 드라마 / 독일: SF / 브라질: 코미디
     
@@ -124,7 +124,7 @@
 
 ### 3-1. 요금제별 평균 시청 시간
 
-![image.png](images/image_5.png)
+![image.png](images/image%205.png)
 
 - Premium 요금제 시청 시간이 오히려 낮음
     
@@ -133,7 +133,7 @@
 
 ### 3-2. 국가별 구독유형 분포
 
-![image.png](images/image_6.png)
+![image.png](images/image%206.png)
 
 - 국가마다 요금제 분포도 일정 (문화/소득 영향)
     
@@ -142,7 +142,7 @@
 
 ### 3-3. 구독유형별 선호 장르
 
-![image.png](images/image_7.png)
+![image.png](images/image%207.png)
 
 | **구독 유형** | **선호 장르 1** | **선호 장르 2** | **선호 장르 3** |
 | --- | --- | --- | --- |
@@ -156,7 +156,7 @@
 
 ### 3-4. 요일별 사용자 로그인 패턴
 
-![image.png](images/image_8.png)
+![image.png](images/image%208.png)
 
 - 프리미엄 사용자는 월요일 활동 높음
     
@@ -165,7 +165,7 @@
 
 ### 3-5. 주중/주말 이용 비율
 
-![image.png](images/image_9.png)
+![image.png](images/image%209.png)
 
 - 전체 요금제에서 주중 시청 비율이 압도적 (70% 이상)
     
@@ -174,7 +174,7 @@
 
 ### 3-6. 상위 10% 시청자 요금제 비율
 
-![image.png](images/image_10.png)
+![image.png](images/image%2010.png)
 
 - 시청량 상위 그룹은 대부분 **Basic 사용자**
     
@@ -192,7 +192,7 @@
 
 ### 4-1. 구독유형별 잠재적 이탈자 비율
 
-![image.png](images/image_11.png)
+![image.png](images/image%2011.png)
 
 - Basic > Premium 순으로 이탈자 비율 존재
     
@@ -201,7 +201,7 @@
 
 ### 4-2. 국가별 잠재적 이탈자 비율
 
-![image.png](images/image_12.png)
+![image.png](images/image%2012.png)
 
 - 일본: 시청시간은 낮지만 로그인 지속
 - 미국/인도/멕시코: 이탈 가능성 높음
@@ -221,7 +221,7 @@
 
 ## **🎯 핵심 차별화 전략 : 시즈널 콘텐츠 제작**
 
-![image.png](images/image_13.png)
+![image.png](images/image%2013.png)
 
 - **미국** : 로그인 수가 모든 월에서 가장 많음. 월별 변동폭이 작고 일정한 수준 유지. 플랫폼 이용 습관이 고정되어 있음
 - **영국/독일** : 계절 패턴이 뚜렷. 겨울 집중형 전략 적합 , 10~12월 로그인 수가 뚜렷하게 상승→ 겨울 시즌에 콘텐츠 관심도 집중(휴가시즌)

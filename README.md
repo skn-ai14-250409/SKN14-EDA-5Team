@@ -41,32 +41,25 @@
 | 2 | 3 | Emma Davis | 60 | UK | Basic | 35.89 | Comedy | 2025-01-24 |
 | 3 | 4 | Emma Miller | 44 | USA | Premium | 261.56 | Documentary | 2024-03-25 |
 | 4 | 5 | Jane Smith | 68 | USA | Standard | 909.3 | Drama | 2025-01-14 |
-| 5 | 6 | David Johnson | 21 | USA | Standard | 615.93 | Romance | 2025-02-03 |
-| 6 | 7 | John Hernandez | 57 | Canada | Standard | 755.47 | Romance | 2025-01-05 |
-| 7 | 8 | Katie Hernandez | 68 | USA | Standard | 145.23 | Sci-Fi | 2024-10-30 |
-| 8 | 9 | James Williams | 39 | UK | Basic | 950.14 | Action | 2024-04-16 |
-| 9 | 10 | Alex Davis | 55 | Mexico | Standard | 696.66 | Horror | 2024-07-03 |
+
 
 **Scaling 및 Feature Engineering**
 
-|  | User\_ID | Name | Age | Country | Subscription\_Type | Watch\_Time\_Hours | Favorite\_Genre | Last\_Login | Age\_cat | Day\_Name | Day\_Type | Recent\_Login |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | 1 | James Martinez | 18 | France | Premium | 80.26 | Drama | 2024-05-12 | Teenager | Sunday | Weekend | 369 |
-| 1 | 2 | John Miller | 23 | USA | Premium | 321.75 | Sci-Fi | 2025-02-05 | Young Adult | Wednesday | Weekday | 100 |
-| 2 | 3 | Emma Davis | 60 | UK | Basic | 35.89 | Comedy | 2025-01-24 | Adult | Friday | Weekday | 112 |
-| 3 | 4 | Emma Miller | 44 | USA | Premium | 261.56 | Documentary | 2024-03-25 | Adult | Monday | Weekday | 417 |
-| 4 | 5 | Jane Smith | 68 | USA | Standard | 909.3 | Drama | 2025-01-14 | Senior | Tuesday | Weekday | 122 |
-| 5 | 6 | David Johnson | 21 | USA | Standard | 615.93 | Romance | 2025-02-03 | Young Adult | Monday | Weekday | 102 |
-| 6 | 7 | John Hernandez | 57 | Canada | Standard | 755.47 | Romance | 2025-01-05 | Adult | Sunday | Weekend | 131 |
-| 7 | 8 | Katie Hernandez | 68 | USA | Standard | 145.23 | Sci-Fi | 2024-10-30 | Senior | Wednesday | Weekday | 198 |
-| 8 | 9 | James Williams | 39 | UK | Basic | 950.14 | Action | 2024-04-16 | Adult | Tuesday | Weekday | 395 |
-| 9 | 10 | Alex Davis | 55 | Mexico | Standard | 696.66 | Horror | 2024-07-03 | Adult | Wednesday | Weekday | 317 |
+| Age\_cat | Day\_Name | Day\_Type | Recent\_Login |
+| --- | --- | --- | --- |
+| Teenager | Sunday | Weekend | 369 |
+| Young Adult | Wednesday | Weekday | 100 |
+| Adult | Friday | Weekday | 112 |
+| Adult | Monday | Weekday | 417 |
+| Senior | Tuesday | Weekday | 122 |
 
+
+---
 ## 🎬 1. 컨텐츠 기획 전략
 
 ### 1-1. 선호 장르별 평균 시청시간
 
-![image.png](image.png)
+![image.png](images/image.png)
 
 - 로맨스, 드라마, 코미디 순으로 시청 시간 높음
 - SF, 호러 등은 상대적으로 낮음
@@ -76,7 +69,7 @@
 
 ### 1-2. 연령대별 평균 시청시간
 
-![image.png](image%201.png)
+![image.png](images/image 1.png)
 
 - 31~40세 그룹이 가장 높은 시청시간
 - 60대 이상에서도 다시 상승 추세
@@ -86,7 +79,7 @@
 
 ### 1-3. 장르별 시청시간 이상치 분포
 
-![image.png](image%202.png)
+![image.png](images/image 2.png)
 
 - 장르별 시청시간 분포에 이상치 거의 없고 안정적
     
@@ -104,7 +97,7 @@
 
 ### 2-1. 국가별 평균 시청시간
 
-![image.png](image%203.png)
+![image.png](images/image 3.png)
 
 - 캐나다, 호주, 프랑스 > 인도, 일본
     
@@ -113,7 +106,7 @@
 
 ### 2-2. 국가별 선호 장르
 
-![image.png](image%204.png)
+![image.png](images/image 4.png)
 
 - 인도: 로맨스 / 미국: 드라마 / 독일: SF / 브라질: 코미디
     
@@ -131,7 +124,7 @@
 
 ### 3-1. 요금제별 평균 시청 시간
 
-![image.png](image%205.png)
+![image.png](images/image 5.png)
 
 - Premium 요금제 시청 시간이 오히려 낮음
     
@@ -140,7 +133,7 @@
 
 ### 3-2. 국가별 구독유형 분포
 
-![image.png](image%206.png)
+![image.png](images/image 6.png)
 
 - 국가마다 요금제 분포도 일정 (문화/소득 영향)
     
@@ -149,7 +142,7 @@
 
 ### 3-3. 구독유형별 선호 장르
 
-![image.png](image%207.png)
+![image.png](images/image 7.png)
 
 | **구독 유형** | **선호 장르 1** | **선호 장르 2** | **선호 장르 3** |
 | --- | --- | --- | --- |
@@ -163,7 +156,7 @@
 
 ### 3-4. 요일별 사용자 로그인 패턴
 
-![image.png](image%208.png)
+![image.png](images/image 8.png)
 
 - 프리미엄 사용자는 월요일 활동 높음
     
@@ -172,7 +165,7 @@
 
 ### 3-5. 주중/주말 이용 비율
 
-![image.png](image%209.png)
+![image.png](images/image 9.png)
 
 - 전체 요금제에서 주중 시청 비율이 압도적 (70% 이상)
     
@@ -181,7 +174,7 @@
 
 ### 3-6. 상위 10% 시청자 요금제 비율
 
-![image.png](image%2010.png)
+![image.png](images/image 10.png)
 
 - 시청량 상위 그룹은 대부분 **Basic 사용자**
     
@@ -199,7 +192,7 @@
 
 ### 4-1. 구독유형별 잠재적 이탈자 비율
 
-![image.png](image%2011.png)
+![image.png](images/image 11.png)
 
 - Basic > Premium 순으로 이탈자 비율 존재
     
@@ -208,7 +201,7 @@
 
 ### 4-2. 국가별 잠재적 이탈자 비율
 
-![image.png](image%2012.png)
+![image.png](images/image 12.png)
 
 - 일본: 시청시간은 낮지만 로그인 지속
 - 미국/인도/멕시코: 이탈 가능성 높음
@@ -228,11 +221,11 @@
 
 ## **🎯 핵심 차별화 전략 : 시즈널 콘텐츠 제작**
 
-![image.png](image%2013.png)
+![image.png](images/image 13.png)
 
-- 미국 : 로그인 수가 모든 월에서 가장 많음. 월별 변동폭이 작고 일정한 수준 유지. 플랫폼 이용 습관이 고정되어 있음
-- 영국/독일 : 계절 패턴이 뚜렷. 겨울 집중형 전략 적합 , 10~12월 로그인 수가 뚜렷하게 상승→ 겨울 시즌에 콘텐츠 관심도 집중(휴가시즌)
-- 인도/브라질 : 월별 기복이 크고, 특정 달에 급증. 브라질은 7월 등 특정 달에 갑자기 상승. 인도는 10월에 최고점 → 신작 콘텐츠의 공개 등으로 추정 (예: 국가별 독자적 컨텐츠 릴리즈)
+- **미국** : 로그인 수가 모든 월에서 가장 많음. 월별 변동폭이 작고 일정한 수준 유지. 플랫폼 이용 습관이 고정되어 있음
+- **영국/독일** : 계절 패턴이 뚜렷. 겨울 집중형 전략 적합 , 10~12월 로그인 수가 뚜렷하게 상승→ 겨울 시즌에 콘텐츠 관심도 집중(휴가시즌)
+- **인도/브라질** : 월별 기복이 크고, 특정 달에 급증. 브라질은 7월 등 특정 달에 갑자기 상승. 인도는 10월에 최고점 → 신작 콘텐츠의 공개 등으로 추정 (예: 국가별 독자적 컨텐츠 릴리즈)
 
 ### **🔥 Key Insights:**
 
@@ -252,13 +245,12 @@
 
 ---
 
-<<<<<<< HEAD
+
 ## 🪞 한 줄 회고 🧠💬 
 
-* 승철님 :
-* 정규님 :
-* 유나님 :
-* 은선님:
-* 유진님: 
-=======
->>>>>>> 714c8d3c45a51018385a46cd077b24d903024c20
+* 승철님 : 다음부턴 프로젝트에 설레여 보고 싶다. 
+* 정규님 : 데이터 분석에 대해 기초체력을 길러볼수있는 좋은 경험이되었습니다 팀원보두 고생하셨습니다 !
+* 유나님 : 팀원들과 함께 데이터를 선정하고 서로가 분석한 내용을 바탕으로 서로 논의할 때 가장 즐거웠어요 고생많으셨습니다! 
+* 은선님: 수업시간에 배운 내용을 토대로 프로젝트를 하면서 배운 내용이 정리되는 느낌이었습니다. 팀원 모두 수고하셨습니다!
+* 유진님: 데이터 탐색 및 분석에 대해 실습하고 논의하는 과정이 좋은 경험이었습니다.
+
